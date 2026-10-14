@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-    title: 'Vinícius — Projetos',
-    description: 'Um espaço para conhecer os projetos de software de Vinícius.',
+    title: 'Vinícius | Projects',
+    description: 'A home for Vinícius’s software projects and the ideas behind them.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="pt-BR">
+        <html lang="en">
             <body>{children}</body>
         </html>
     );

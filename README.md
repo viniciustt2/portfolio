@@ -1,6 +1,6 @@
 # Portfolio
 
-A personal portfolio site that introduces Vinícius and brings his software projects together in one place.
+A personal portfolio site that introduces Vinícius and brings his software projects together in one place. The site is written in English and uses a dark theme by default.
 
 ## Stack
 
@@ -11,7 +11,7 @@ A personal portfolio site that introduces Vinícius and brings his software proj
 ## Run locally
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
